@@ -46,7 +46,6 @@ function countryListMake(country) {
 }
 
 const makeLiEl = ({ flags: { svg }, name: { official } }) => {
-
   return `
   <li class = "country-item">
   <img 
