@@ -39,7 +39,7 @@ function countryListMake(country) {
     const markup = country.map(makeLiEl).join(" ");
     countryList.insertAdjacentHTML('beforeend', markup);
   }
-  if (countrys.length === 1) {
+  if (country.length === 1) {
     const markupInfo = country.map(makeInfoEl).join(" ");
     countryInfo.insertAdjacentHTML('beforeend', markupInfo);
   }
